@@ -1,74 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>RogueApe's Google Homepage</title>
+    <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
 
+        <!-- Header goes here -->
+
         <header>
-            <nav class="nav">
-                <ul class="top_right">
-                    <li><a href="https://www.gmail.com">Gmail</li></a>
-                    <li><a href="https://www.google.com.my/imghp?hl=en&authuser=0&ogbl" target="_blank">Images</li></a>
-                    <li><a href="#">App Icon</li></a>
-                    <li><a href="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank">
-                    <button type="button" class="sign_in_btn">Sign In</li></a></button>
+            <nav class="top_right">
+                <ul class="top_nav">
+                    <li><a href="https://mail.google.com/mail/u/0/">Gmail</a></li>
+                    <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                    <li><a href="https://about.google/intl/en/products/?tab=wh"><button type="button" class="app_icon"></a></li></button>
+                    <li><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"><button type="button" class="signin_btn">Sign In</button></a></li>
                 </ul>
             </nav>
         </header>
 
-<!-- Google logo here -->
+        <!-- Main content starts here -->
 
-<main class="center">
-    <img class="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-</main>
+        <main class="center">
+            <a href="#"><img class="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+        </main>
 
-<!-- search bar here -->
+        <form>
+            <input type="text" id="search_bar">
+            <button type="button" class="magnifier_btn"></button>
+            <button type="button" class="mic_btn"></button>
+        </form>
 
-<form>
-<input type="text" id="icons">
-<button type="button" class="magnifier_btn"></button>
-<button type="button" class="mic_btn"></button>
-</form>
+        <ul class="center">
+            <li><button type="button" class="search_btn">Google Search</button></li>
+            <li><button type="button" class="search_btn">I'm Feeling Lucky</button></li>
+        </ul>
 
-<ul>
-    <li><button class="search_btn">Google Search</button></li>
-    <li><button class="search_btn">I'm Feeling Lucky</button></li>
-</ul>
+        <!-- Footer goes here! -->
 
-<!-- footer starts here -->
-<footer>
-    <ul class="btm_left">
-        <li><a href="https://about.google/?utm_source=google-MY&utm_medium=referral&utm_campaign=hp-footer&fg=1" target="_blank">About</li></a>
-        <li><a href="https://www.google.com/intl/en_my/business/" target="_blank">Business</li></a>
-        <li><a href="https://ads.google.com/intl/en_my/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">Advertising</li></a>
-        <li><a href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank">How Search works</li></a>
-    </ul>
+        <footer>
+            <ul class="footer_left">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search works</a></li>
+            </ul>
 
-    <ul class="btm_right">
-        <li><a href="https://policies.google.com/privacy?hl=en-MY&fg=1" target="_blank">Privacy</li></a>
-        <li><a href="https://policies.google.com/terms?hl=en-MY&fg=1" target="_blank">Terms</li></a>
-        <li><a href="#">Setting</li></a>
-    </ul>
-</footer>
+            <ul class="footer_right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Setting</a></li>
+            </ul>
+        </footer>
 
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
